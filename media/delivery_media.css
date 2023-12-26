@@ -1,0 +1,27 @@
+@media (min-width: 1025px) {
+    .section_modile_inputs {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section_inputs {
+        display: none !important;
+    }
+
+    .section_modile_inputs {
+        display: block;
+    }
+}
+
+.mobile_input {
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.mobile_inputs {
+    display: flex;
+    flex-direction: column;
+}

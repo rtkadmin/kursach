@@ -1,0 +1,22 @@
+.cartBtn {
+    transition: all 0.25s ease-in-out;
+    outline: 1px solid #e5e7eb;
+    border-radius: 2px !important;
+}
+
+.cartBtn svg {
+    transition: all 0.25s ease-in-out;
+}
+
+.cartBtn:hover {
+    background-color: rgba(1, 111, 255, .9);
+    color: white;
+    transition: all 0.25s ease-in-out;
+    stroke: white;
+    outline: none;
+}
+
+.cartBtn:hover svg {
+    stroke: white;
+    transition: all 0.25s ease-in-out;
+}

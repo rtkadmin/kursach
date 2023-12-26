@@ -1,0 +1,209 @@
+/* ----------------NAVBAR---------------- */
+
+@media (max-width: 1536px) {
+  .text10 {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .text10 {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .blackline {
+    display: none;
+  }
+}
+
+/* .main-container */
+@media (max-width: 1024px) {
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* .main-container */
+
+/* navbar */
+@media (max-width: 1280px) {
+  .navbar {
+    display: none !important;
+  }
+}
+
+/* navbar */
+
+/* .nav-btns */
+@media (max-width: 1536px) {
+  .nav-btns {
+    display: none !important;
+  }
+
+  .line-hidden {
+    display: block;
+  }
+}
+
+/* .nav-btns */
+
+/* .nav-center */
+@media (max-width: 1536px) {
+  .nav-center {
+    width: 80%;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  .lineHR {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-center {
+    width: 77%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-center {
+    width: 70%;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-center {
+    display: none !important;
+  }
+}
+
+/* .nav-center */
+
+/* ----------------NAVBAR---------------- */
+
+/* ----------------MAIN---------------- */
+
+/* cards */
+@media (max-width: 768px) {
+  .mini-card {
+    width: 12rem;
+  }
+
+  .cards {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1536px) {
+  .mini-card:nth-child(6) {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .mini-card:nth-child(5) {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mini-card:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .mini-card:nth-child(3) {
+    display: none;
+  }
+
+  .mini-card {
+    margin: 0 auto;
+    width: 14rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .mini-card:nth-child(2) {
+    display: none;
+  }
+
+  .mini-card {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* ----------------MAIN---------------- */
+
+/* ----------------CABINET---------------- */
+@media (max-width: 1568px) {
+  .background_cab {
+    height: 220px;
+  }
+}
+@media (max-width: 1280px) {
+  .background_cab {
+    height: 200px;
+  }
+}
+@media (max-width: 1024px) {
+  .background_cab {
+    height: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .background_cab {
+    height: 160px;
+  }
+}
+@media (max-width: 640px) {
+  .background_cab {
+    height: 100px;
+  }
+}
+
+/* ----------------CABINET---------------- */
+
+/* ----------------FOOTER---------------- */
+
+/* payment */
+@media (max-width: 768px) {
+  .payment {
+    justify-content: center !important;
+  }
+}
+
+/* payment */
+
+/* ----------------FOOTER---------------- */
+
+/* ----------------DELIVERY---------------- */
+
+@media (max-width: 1024px) {
+  .section_delivery {
+    flex-direction: column !important;
+  }
+  .delete-img {
+    display: none;
+  }
+  .img-top {
+    margin-top: 10px;
+  }
+}
+
+/* ----------------DELIVERY---------------- */
